@@ -1,12 +1,12 @@
 {
-  "title": "Pack11ty",
-  "description": "an heavily opinionated Eleventy template project",
-  "url": "https://pack11ty.dev/",
-  "author": {
-    "name": "Nicolas Hoizey",
-    "email": "nicolas@hoizey.com",
-    "url": "https://nicolas-hoizey.com/",
-    "twitter": "nhoizey",
-    "facebook": "nhoizey"
-  }
+	"title": "raw-eleven",
+	"description": "Another wild project by rawsta",
+	"url": "https://rawsta.de/",
+	"author": {
+		"name": "Sebastian Fiele",
+		"email": "rawsta@rawsta.de",
+		"url": "https://rawsta.de/",
+		"twitter": "rawsta",
+		"facebook": "rawsta"
+	}
 }

@@ -18,7 +18,7 @@ import {
 } from 'workbox-strategies';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { BroadcastUpdatePlugin } from 'workbox-broadcast-update';
-import * as googleAnalytics from 'workbox-google-analytics';
+// import * as googleAnalytics from 'workbox-google-analytics';
 
 const OFFLINE_FALLBACK = '/offline-fallback.html';
 
@@ -42,18 +42,18 @@ setDefaultHandler(
 registerRoute(({ request }) => request.headers.has('range'), new NetworkOnly());
 
 // Google Analytics
-registerRoute(
-  ({ request }) =>
-    request.url === 'https://www.google-analytics.com/analytics.js',
-  new CacheFirst({
-    cacheName: 'shell',
-    plugins: [
-      new ExpirationPlugin({
-        maxAgeSeconds: 10 * 24 * 60 * 60, // 10 Days
-      }),
-    ],
-  })
-);
+// registerRoute(
+//   ({ request }) =>
+//     request.url === 'https://www.google-analytics.com/analytics.js',
+//   new CacheFirst({
+//     cacheName: 'shell',
+//     plugins: [
+//       new ExpirationPlugin({
+//         maxAgeSeconds: 10 * 24 * 60 * 60, // 10 Days
+//       }),
+//     ],
+//   })
+// );
 
 // Pages
 // Try to get fresh HTML from network, but don't wait for more than 2 seconds
@@ -99,15 +99,15 @@ setCatchHandler(({ event }) => {
   }
 });
 
-googleAnalytics.initialize({
-  hitFilter: (params) => {
-    const queueTimeInSeconds = Math.round(params.get('qt') / 1000);
-    params.set('cm1', queueTimeInSeconds);
-  },
-  parameterOverrides: {
-    cd4: 'offline',
-  },
-});
+// googleAnalytics.initialize({
+//   hitFilter: (params) => {
+//     const queueTimeInSeconds = Math.round(params.get('qt') / 1000);
+//     params.set('cm1', queueTimeInSeconds);
+//   },
+//   parameterOverrides: {
+//     cd4: 'offline',
+//   },
+// });
 
 skipWaiting();
 clientsClaim();

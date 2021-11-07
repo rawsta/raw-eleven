@@ -1,9 +1,9 @@
 {
-  "name": "pack11ty",
-  "version": "1.0.1",
-  "title": "Pack11ty",
-  "description": "an heavily opinionated Eleventy template project",
-  "homepage": "https://pack11ty.dev/",
+  "name": "raw-eleven",
+  "version": "1.0.2",
+  "title": "rawsta on 11ty",
+  "description": "another project by rawsta",
+  "homepage": "https://rawsta.de/",
   "author": {
     "name": "Nicolas Hoizey",
     "url": "https://nicolas-hoizey.com/"
@@ -85,7 +85,7 @@
     "twitter-text": "^3.1.0",
     "workbox-broadcast-update": "^6.1.5",
     "workbox-cacheable-response": "^6.2.4",
-    "workbox-cli": "^6.1.5",
+    "workbox-cli": "^6.4.0",
     "workbox-core": "^6.1.2",
     "workbox-expiration": "^6.1.1",
     "workbox-google-analytics": "^6.2.4",

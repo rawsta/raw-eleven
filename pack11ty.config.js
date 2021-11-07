@@ -4,7 +4,7 @@ module.exports = {
     assets: 'assets',
     dist: '_site',
   },
-  defaultLang: 'en',
+  defaultLang: 'de',
   permalinkFolders: true,
   limitCollectionSizeInDevMode: 10,
 };
