@@ -1,19 +1,16 @@
 ---
-title: Welcome to Pack11ty!
+title: Welcome to raw-eleven!
 nav:
   order: 1
   title: Home
 ---
 
+Another side-project by rawsta. This time it's a page with [Eleventy](https://www.11ty.dev/) with [Pack11ty](https://pack11ty.dev/) as starter-template. Maybe it's kind of cheating to use templates but the day only has so many hours.
+
 [Pack11ty]{.pack11ty} is an heavily opinionated [Eleventy](https://www.11ty.dev/) template project created by [Nicolas Hoizey](https://nicolas-hoizey.com/).
 
-Feel free to use it, enhance it, and share your ideas/comments with [issues](https://github.com/nhoizey/pack11ty/issues/new/choose), or (even better) [pull requests](https://github.com/nhoizey/pack11ty/compare)!
 
-If you're in a hurry, install your own version of [Pack11ty]{.pack11ty} for free on Netlify:
-
-[Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/nhoizey/pack11ty&stack=cms){.netlify-button}{.center}
-
-# Key features
+# Key features when it's running
 
 - **Collections** built automatically from root folders, with pagination for yearly and monthly archives
 - **JavaScript and CSS assets** optimized for performance
@@ -29,7 +26,3 @@ If you're in a hurry, install your own version of [Pack11ty]{.pack11ty} for free
 # Would you like to know more?
 
 Read the [full documentation](documentation/)!
-
-# Do you have different needs?
-
-No problem, there are [many other Eleventy starters available](https://www.11ty.dev/docs/starter/).
