@@ -2,6 +2,8 @@
 
 Another side-project by rawsta. This time it's a page with [Eleventy](https://www.11ty.dev/) with [Pack11ty](https://pack11ty.dev/) as starter-template. Maybe it's kind of cheating to use templates but the day only has so many hours.
 
+Current Demo: [raw-eleven.netlify.app](https://raw-eleven.netlify.app)
+
 ## Pack11ty
 
 Pack11ty is an heavily opinionated [Eleventy](https://www.11ty.dev/) template project created by [Nicolas Hoizey](https://nicolas-hoizey.com/).
@@ -21,7 +23,7 @@ Pack11ty is an heavily opinionated [Eleventy](https://www.11ty.dev/) template pr
 - **Enhanced Markdown** for better contribution: footnotes, attributes, headings anchors, abbreviations, containers
 - A set of Eleventy filters and shortcodes are provided, including a better `slugify`
 
-# Would you like to know more?
+### Would you like to know more?
 
 Read the full documentation on [pack11ty.dev](https://pack11ty.dev/)!
 
