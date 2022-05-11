@@ -1,3 +1,16 @@
+a,
+a:visited {
+  color: var(--theme-color);
+  text-decoration-style: dotted;
+  transition: var(--transition-all);
+}
+
+a:hover,
+a:active {
+  color: #830000;
+  text-decoration-style: solid;
+}
+
 .deeplink {
   font-size: 0.8em;
   padding: 0 0.2em;
@@ -28,6 +41,8 @@ a[href^="https://"]:not([href^="https://pack11ty.dev"]):after
   font-size: 75%;
   line-height: 0;
   position: relative;
-  top: -0.5em;
+  top: 0;
+  text-decoration: none;
+  // top: -0.5em;
   vertical-align: baseline;
 }
