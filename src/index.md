@@ -5,9 +5,11 @@ nav:
   title: Home
 ---
 
-Another side-project by rawsta. This time it's a page with [Eleventy](https://www.11ty.dev/) with [Pack11ty](https://pack11ty.dev/) as starter-template. Maybe it's kind of cheating to use templates but the day only has so many hours.
+Another side-project by rawsta.
 
-[Pack11ty]{.pack11ty} is an heavily opinionated [Eleventy](https://www.11ty.dev/) template project created by [Nicolas Hoizey](https://nicolas-hoizey.com/).
+This time it's a page with [Eleventy](https://www.11ty.dev/) with [Pack11ty](https://pack11ty.dev/) as starter-template. Maybe it's kind of cheating to use templates but the day only has so many hours.
+
+[Pack11ty]{.pack11ty} is an heavily opinionated [Eleventy](https://www.11ty.dev/) template project originally created by [Nicolas Hoizey](https://nicolas-hoizey.com/).
 
 
 # Key features when it's running
