@@ -8,11 +8,13 @@
   font-size: 2rem;
   font-weight: bold;
   color: var(--theme-color-contrast);
-  background-color: var(--theme-color);
+  // background-color: var(--theme-color);
+  background-color: none;
   border-bottom: 2px solid var(--theme-color);
 
   a {
     // text-decoration: none;
+    transition: var(--transition-all);
     color: var(--theme-color-contrast);
   }
 
@@ -32,12 +34,14 @@ nav {
   li {
     flex-grow: 1;
     text-align: center;
+    transition: var(--transition-all);
   }
 
   a {
     display: block;
     padding: 0.1em 0.5em;
     color: var(--theme-color);
+    transition: var(--transition-all);
     background-color: #ddd;
     border: 2px solid #ddd;
   }
